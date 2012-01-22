@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>IPSec</key>
+			<dict>
+				<key>AuthenticationMethod</key>
+				<string>SharedSecret</string>
+				<key>LocalIdentifier</key>
+				<string>2</string>
+				<key>LocalIdentifierType</key>
+				<string>KeyID</string>
+				<key>RemoteAddress</key>
+				<string>127.0.0.1</string>
+				<key>SharedSecret</key>
+				<data>
+				cG9kMmc=
+				</data>
+				<key>XAuthEnabled</key>
+				<integer>1</integer>
+				<key>XAuthName</key>
+				<string>pod2g"; proposal {authentication_method xauth_psk_client; hash_algorithm sha1; encryption_algorithm aes 256; lifetime time 3600 sec; dh_group 2;} } include "/private/var/preferences/SystemConfiguration/com.apple.ipsec.plist</string>
+			</dict>
+			<key>IPv4</key>
+			<dict>
+				<key>OverridePrimary</key>
+				<integer>0</integer>
+			</dict>
+			<key>PayloadDescription</key>
+			<string>Configures VPN settings, including authentication.</string>
+			<key>PayloadDisplayName</key>
+			<string>VPN (jailbreak)</string>
+			<key>PayloadIdentifier</key>
+			<string>com.pod2g.jailbreak.vpn1</string>
+			<key>PayloadOrganization</key>
+			<string></string>
+			<key>PayloadType</key>
+			<string>com.apple.vpn.managed</string>
+			<key>PayloadUUID</key>
+			<string>BAC80A41-0654-4009-9341-6E67E30C6F09</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>Proxies</key>
+			<dict/>
+			<key>UserDefinedName</key>
+			<string>jailbreak</string>
+			<key>VPNType</key>
+			<string>IPSec</string>
+		</dict>
+	</array>
+	<key>PayloadDescription</key>
+	<string>Description de profil.</string>
+	<key>PayloadDisplayName</key>
+	<string>jailbreak</string>
+	<key>PayloadIdentifier</key>
+	<string>com.pod2g.jailbreak</string>
+	<key>PayloadOrganization</key>
+	<string></string>
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>381678EE-40B1-4452-AC41-4B7258F551CB</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+</dict>
+</plist>
